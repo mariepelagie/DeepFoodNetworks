@@ -31,7 +31,7 @@ Data: Obtained from a World Bank database consists yearly trade data between cou
  
   inputs: 'DF_with_norm_dpv.lzma'
   
-  outputs: No files create
+  outputs: N/A
   
   helper module: g2v_utils.py
 
