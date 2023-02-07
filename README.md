@@ -28,14 +28,20 @@ Data: Obtained from a World Bank database consists yearly trade data between cou
         - Further analysis
             - characteristics of clusters of size = 4 and 5
             - persistent groupings 
+ 
   inputs: 'DF_with_norm_dpv.lzma'
+  
   outputs: No files create
+  
   helper module: g2v_utils.py
 
 **Predictions**
 
 3. Graph2Vec_predictions.ipynb
-   TBA
+   
+   TBA ( to be added)
+   
    inputs: 'DF_with_norm_dpv.lzma'
+   
    outputs: 
    
