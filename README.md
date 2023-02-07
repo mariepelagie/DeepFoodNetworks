@@ -14,7 +14,9 @@ Data: Obtained from a World Bank database consists yearly trade data between cou
     c. 'DF_with_norm_dpv.lzma'
     d. gdf_tot as 'DF_total.lzma': geodataframe consisting of summary table plus geolocation of each countries
     helper module: my_network_functions
+
 **Clustering**
+
 2. Graph2Vec_cleaned.ipynb
     This notebook does the following:
     - Convert each example (product graph) into a 4 dimensional embedding using Graph2Vec embedder
@@ -29,7 +31,9 @@ Data: Obtained from a World Bank database consists yearly trade data between cou
   inputs: 'DF_with_norm_dpv.lzma'
   outputs: No files create
   helper module: g2v_utils.py
+
 **Predictions**
+
 3. Graph2Vec_predictions.ipynb
    TBA
    inputs: 'DF_with_norm_dpv.lzma'
