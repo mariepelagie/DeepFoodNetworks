@@ -29,9 +29,8 @@ Data: Obtained from a World Bank database consists yearly trade data between cou
   inputs: 'DF_with_norm_dpv.lzma'
   outputs: No files create
   helper module: g2v_utils.py
-
 **Predictions**
-2. Graph2Vec_predictions.ipynb
+3. Graph2Vec_predictions.ipynb
    TBA
    inputs: 'DF_with_norm_dpv.lzma'
    outputs: 
