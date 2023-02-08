@@ -1,7 +1,15 @@
 # DeepFoodNetworks
 The goal of this project is to develop a pipeline for categorizing supply chains(food) using structure and  risk levels and network risk prediction.  First we develop a framework to systematically group different food product supply chains by identifying their structural similarities and differences and vulnerability. Using the vector embeddings obtained from the graph neural network in out clustering pipeline, we train a supervised machine learning model to predict risk levels and identify supply chain networks with extreme risk levels.
 
+Proposed solution
+
+![image](https://user-images.githubusercontent.com/36086489/217405708-bce5b808-9c60-4416-a751-21eb7efe7d73.png)
+
+
 Data: Obtained from a World Bank database consists yearly trade data between countries  for over $50$ different products for a period of $25$ years.
+
+Code Instructions:
+
 1. pipeline_test_V4_Jan_2022.ipynb
     This notebook cleans data for each product under the list (names) and converts these tables to networks and   
     later outputs csv files.
