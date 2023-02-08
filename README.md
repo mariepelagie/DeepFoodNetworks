@@ -37,11 +37,11 @@ Code Instructions:
             - characteristics of clusters of size = 4 and 5
             - persistent groupings 
  
-  inputs: 'DF_with_norm_dpv.lzma'
+    inputs: 'DF_with_norm_dpv.lzma'
   
-  outputs: N/A
+    outputs: N/A
   
-  helper module: g2v_utils.py
+    helper module: g2v_utils.py
 
 **Predictions**
 
